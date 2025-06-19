@@ -4,7 +4,10 @@ import cv2
 import numpy as np
 import pickle
 import os
-import mediapipe as mp
+try:
+    import mediapipe_silicon as mp  # For Streamlit Cloud
+except ImportError:
+    import mediapipe as m
 
 # Load model
 @st.cache_data
