@@ -1,5 +1,5 @@
 streamlit==1.35.0
-mediapipe-silicon==0.10.9
+mediapipe-lite==0.3.1
 numpy
 pandas
 opencv-python

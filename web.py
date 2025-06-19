@@ -5,7 +5,8 @@ import numpy as np
 import pickle
 import os
 try:
-    import mediapipe_silicon as mp  # For Streamlit Cloud
+    import mediapipe_lite as mp
+  # For Streamlit Cloud
 except ImportError:
     import mediapipe as m
 
