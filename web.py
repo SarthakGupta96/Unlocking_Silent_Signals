@@ -35,10 +35,11 @@ Through this initiative, we strive to:
 🌍 Make Technology More Human-Centered: Focusing on accessibility, inclusivity, and emotional understanding.
 
 With a seamless blend of innovative algorithms, deep learning, and interactive design, we aim to create tools that unlock the silent signals people send every day — making digital spaces more connected and meaningful.""")
+    st.markdown("""Repo-https://github.com/SarthakGupta96/Unlocking_Silent_Signals""")
 elif section == "Contact Us":
-    st.title("Contact Us")
+    st.title("📞 Contact Us")
     st.markdown("""
-## 📞 Contact Us
+
 
 For any questions, collaboration, or support, feel free to get in touch:
 
@@ -51,7 +52,7 @@ For any questions, collaboration, or support, feel free to get in touch:
   📧 **Email**: nachiketa.venkat2023@vitstudent.ac.in  
 """)
 else:
-    st.title("🤖 Body Language Detection")
+    st.title("🤖 Unlocking Silent Signals")
     st.markdown("This app uses **MediaPipe** and a custom trained model to predict body language.")
     mp_drawing = mp.solutions.drawing_utils
     mp_holistic = mp.solutions.holistic
