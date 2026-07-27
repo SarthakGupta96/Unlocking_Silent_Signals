@@ -1,6 +1,6 @@
-streamlit
-mediapipe
-numpy
-pandas
-opencv-python
-scikit-learn
+streamlit==1.37.1
+mediapipe==0.10.14
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
