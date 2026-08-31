@@ -14,6 +14,8 @@ def load_model():
         return pickle.load(f)
 
 model = load_model()
+print(type(model))
+print(model)
 
 # Streamlit UI
 
@@ -74,6 +76,8 @@ else:
                 image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
                 image.flags.writeable = False
                 results = holistic.process(image)
+                print(results.pose_landmarks)
+                print(results.face_landmarks)
 
                 # Recolor back to BGR for rendering
                 image.flags.writeable = True
